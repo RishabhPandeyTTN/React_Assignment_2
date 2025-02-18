@@ -11,6 +11,7 @@ const ToDoList = ()=>{
 
     function handleAdd(){
             setTodo((prev)=>[...prev , task])
+            setTask("")
     }
     
     return <div>
